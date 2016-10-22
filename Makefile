@@ -3,7 +3,7 @@
 
 REGISTRY = 452158872079.dkr.ecr.us-east-1.amazonaws.com
 IMAGE =  mage
-BUILD_NUMBER?=0.1.77
+BUILD_NUMBER?=0.1.82
 MVN_VERSION = 3.3.3-jdk-8
 
 .PHONY: all build release
