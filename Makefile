@@ -3,7 +3,7 @@
 
 REGISTRY = 452158872079.dkr.ecr.us-east-1.amazonaws.com
 IMAGE =  mage-udo
-BUILD_NUMBER?=0.1.82
+BUILD_NUMBER?=0.1.85
 MVN_VERSION = 3.3.3-jdk-8
 
 .PHONY: all build release
