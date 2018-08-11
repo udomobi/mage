@@ -1,5 +1,5 @@
 FROM java:8
-COPY target/mage-0.1.85-SNAPSHOT.jar /usr/src/mage-0.1.85-SNAPSHOT.jar
+COPY target/mage-0.1.87-SNAPSHOT.jar /usr/src/mage-0.1.87-SNAPSHOT.jar
 COPY config.yml /usr/src/config.yml
 WORKDIR /usr/src
 EXPOSE 8026
