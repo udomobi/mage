@@ -4,4 +4,4 @@ COPY config.yml /usr/src/config.yml
 WORKDIR /usr/src
 EXPOSE 8026
 EXPOSE 8028
-CMD ["java", "-jar", "mage-0.1.85-SNAPSHOT.jar", "server", "config.yml"]
+CMD ["java", "-jar", "mage-0.1.87-SNAPSHOT.jar", "server", "config.yml"]
